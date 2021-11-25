@@ -1,0 +1,90 @@
+/*  Estilos da pagina index.html*/
+.menu{
+background-image: #B6937F;
+overflow: hidden;
+}
+
+.menu a{
+        float: left;
+        color:white;
+        text-align: center;
+        padding: auto;
+        text-decoration: none;
+        font-size: 15px;
+}
+
+.menu a:hover {
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.container-um {
+        font-family: Arial, Helvetica, sans-serif ;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.familia{
+        width: 350px;
+        border-radius: 100%;
+
+        
+
+}
+
+.center {
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+        color: coral;
+}
+
+
+p {
+        margin-top: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+}
+
+.musica{
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+}
+/*  Estilos da pagina contato.html*/
+
+input{
+  margin: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #FCE9C9;
+  border-radius: 2%;
+  border-color: #FCE9C9;
+}
+
+textarea {
+  margin: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #FCE9C9;
+  border-radius: 2%;
+  border-color: #FCE9C9;
+}
+
+button{
+  margin: 20px;
+  width: 20%;
+  height: 30px; 
+  border: 2px solid #FCE9C9;
+  background-color: #FCE9C9;
+  color:#C78CD0; 
+}
+
+button:hover{
+  border-color: #F19C9F;
+  background-color: #F19C9F;
+  color: #FCE9C9 ;
+}
+
+.endereco{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
