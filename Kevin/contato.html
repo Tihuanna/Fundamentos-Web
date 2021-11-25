@@ -6,33 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
+    <div class="container-um">
+        <div class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <a href="https://github.com/tihuanna" target="_blank">GitHub</a>
+            </ul>
+        </div>
 
-    </ul>
-    <h1>Entre em contato comigo!!</h1>
 
-    <form>
-        <form>
-            <label for="Nome">Nome:</label>
-            <input type="Nome" id="nome">
-            <br>
-            <br>
-            <label for="Email">Email:</label>
-            <input type="email" id="email">
-            <br>
-            <br>
-            <label for="Assunto">Assunto:</label>
-            <textarea name="" id="" cols="60" rows="5"></textarea>
-            <br>
-            <br>
-            <button>Enviar</button>
-        </form>
+    </div class="contato">
+    <h1 class="contato-titulo">Entre em contato comigo!!</h1>
+
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" class="nome">
+        <label for="email">E-mail:</label>
+        <input type="email" class="email">
+        <label for="assunto">Assunto:</label>
+        <textarea type="text" class="assunto" cols="60" rows="5"></textarea>
+        <button>Enviar</button>
     </form>
+
+    <div class="mapa">
+        <h2 class="contato-titulo">Endereço</h2>
+
+        <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116963.94121747719!2d-46.57136462453266!3d-23.635759876396566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce64289e2ada51%3A0x96284263fe399cb0!2sPra%C3%A7a%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1637796622560!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
 </body>
 
 </html>
